@@ -4,7 +4,7 @@ from ..models import User, Pitch, Comment, UpVote, DownVote
 from flask_login import login_required, current_user
 from .. import db, photos
 from .forms import PitchForm, CommentForm, UpdateProfile
-import markdown2
+
 
 
 @main.route('/')
@@ -14,7 +14,7 @@ def index():
     '''
     title = "Welcome | One Minute Pitch"
 
-    return render_template("index.html", title=title)
+    return render_template("index.html", title = title)
 
 
 @main.route('/user/<uname>&<id_user>')
