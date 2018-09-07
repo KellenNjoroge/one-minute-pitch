@@ -1,5 +1,5 @@
-\instance
-\pyc
-\virtual
-\.idea
-\.start.sh
+instance/
+*.pyc
+virtual/
+.idea
+.start.sh
