@@ -2,4 +2,5 @@ instance/
 *.pyc
 virtual/
 .idea
-.start.sh
+start.sh
+.pytest_cache/
