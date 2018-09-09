@@ -1,20 +1,21 @@
-from flask import render_template, redirect, url_for, flash, abort
+from flask import render_template, redirect, url_for, flash, abort, request
 from . import main
 from ..models import User, Pitch, Comment, UpVote, DownVote
 from flask_login import login_required, current_user
 from .. import db, photos
 from .forms import PitchForm, CommentForm, UpdateProfile
 
-#removed request
+
+# removed request
 
 @main.route('/')
 def index():
-    '''
+    """
     root page function that returns the index page and its data
-    '''
+    """
     title = "Welcome | One Minute Pitch"
 
-    return render_template("index.html", title = title)
+    return render_template("index.html", title=title)
 
 
 @main.route('/user/<uname>&<id_user>')
