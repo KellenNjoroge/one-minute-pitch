@@ -5,13 +5,13 @@ from flask import render_template
 import os
 
 
-# def mail_message(subject, template, to, **kwargs):
-#     sender_email = 'muthonkel@gmail.com'
-#
-#     email = Message(subject, sender=sender_email, recipients=[to])
-#     email.body = render_template(template + ".txt", **kwargs)
-#     email.html = render_template(template + ".html", **kwargs)
-#     mail.send(email)
+def mail_message(subject, template, to, **kwargs):
+    sender_email = 'muthonkel@gmail.com'
+
+    email = Message(subject, sender=sender_email, recipients=[to])
+    email.body = render_template(template + ".txt", **kwargs)
+    email.html = render_template(template + ".html", **kwargs)
+    mail.send(email)
 
 
 def send_email(subject, sender, recipients, text_body, html_body):
