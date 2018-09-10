@@ -27,7 +27,7 @@ It has the following features
 ## Demo
 This app was deployed in Heroku
 
-[Demo](https://oneminutepitch.herokuapp.com/)
+[Demo](https://oneminutepitch1.herokuapp.com/)
 
 ## Architecture
 This is a list files or directories for News-Highlight app
