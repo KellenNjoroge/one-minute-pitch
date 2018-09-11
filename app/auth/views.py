@@ -31,6 +31,7 @@ def register():
     form = RegistrationForm()
     if form.validate_on_submit():
         user = User(email=form.email.data, username=form.username.data, password=form.password.data)
+        #user.save_user()
         db.session.add(user)
         db.session.commit()
 
@@ -49,7 +50,7 @@ def register():
 @login_required
 def logout():
     logout_user()
-    # flash("You have been successfully logged out")
+    flash("You have been successfully logged out")
     return redirect(url_for('main.index'))
 
 
