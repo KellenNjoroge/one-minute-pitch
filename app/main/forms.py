@@ -10,7 +10,7 @@ class PitchForm(FlaskForm):
                               choices=[('Interview-Pitch', 'Interview Pitch'), ('Product-Pitch', 'Product Pitch'),
                                        ('Promotion-Pitch', 'Promotion Pitch'), ('Business', 'Business'),
                                        ('Academic', 'Academic'), ('Political', 'Political'),
-                                       ('Technology', 'Technology'), ('Health', 'Health')], validators=[Required()])
+                                       ('Technology', 'Technology'), ('Health', 'Health'),('pick-up-lines','pick-up-lines')], validators=[Required()])
     submit = SubmitField('Pitch😄!')
 
 
