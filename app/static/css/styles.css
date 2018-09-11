@@ -1,0 +1,30 @@
+body            { font-family: sans-serif; background: #eee; }
+a, h1, h2       { color: #377ba8; }
+h1, h2          { font-family: 'Georgia', serif; margin: 0; }
+
+.pitches {
+    box-shadow: 2px 4px 12px 2px #dcdcdc;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-family: 'Mukta';
+
+.pitches img,
+.comment img,
+.comments img {
+    max-width: 40px;
+}
+
+.pitchit-form{
+    box-shadow: 2px 4px 12px 2px #dcdcdc;
+    margin-top: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Mukta';
+}
+.pitchit-form h3{
+    display: flex;
+    justify-content: center;
+    font-family: 'Mukta';
