@@ -1,4 +1,4 @@
-#One-Minute-Pitch
+# One-Minute-Pitch
 
 ## Built by [Kellen Njoroge](https://github.com/KellenNjoroge)
 
@@ -30,7 +30,7 @@ This app was deployed in Heroku
 [Demo](https://oneminutepitch1.herokuapp.com/)
 
 ## Architecture
-This is a list files or directories for News-Highlight app
+This is a list files or directories for pitch app
 
 + `/api` - scripts implement actual api functions
 + `/model` - define  model classes
